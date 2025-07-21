@@ -1,0 +1,118 @@
+/* Contenedor lateral izquierdo */
+body > .left-container {
+    width: 30%;
+    height: 100vh;
+    background-color: var(--first-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    padding: 1rem 0;
+}
+
+/* Contenido superior */
+.left-container > header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Imagen de perfil */
+.container-img-profile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.img-profile {
+    width: 40%;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Nombre */
+.container-name-profile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.name-profile {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #fff;
+    text-align: center;
+}
+
+/* Menú */
+.navbar-profile {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.navbar-profile > ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.navbar-profile ul li {
+    list-style: none;
+}
+
+.navbar-profile ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s ease;
+    text-shadow: -2px -2px 4px var(--second-color);
+}
+
+.navbar-profile ul li a:hover {
+    color: var(--terciary-color);
+    text-shadow: 0 0 6px var(--terciary-color);
+}
+
+/* Footer - Redes Sociales */
+.left-container > footer {
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.navbar-social-networks > ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.bx {
+    font-size: 2.5rem;
+    color: var(--terciary-color);
+    background-color: #bdb1b1a8;
+    border-radius: 50%;
+    padding: 0.5rem;
+    transition: 0.3s ease;
+}
+
+.bx:hover {
+    background: none;
+    box-shadow: 0 0 10px var(--terciary-color);
+    transform: scale(1.1);
+}
